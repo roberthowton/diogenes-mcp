@@ -1,0 +1,21 @@
+{
+  "name": "diogenes-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for searching, reading and exporting TLG texts through a local Diogenes install",
+  "type": "module",
+  "bin": {
+    "diogenes-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
