@@ -2,6 +2,7 @@
   "name": "diogenes-mcp",
   "version": "0.1.0",
   "description": "MCP server for searching, reading and exporting TLG texts through a local Diogenes install",
+  "license": "GPL-2.0-or-later",
   "type": "module",
   "bin": {
     "diogenes-mcp": "dist/index.js"

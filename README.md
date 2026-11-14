@@ -35,3 +35,7 @@ TLG location comes from Diogenes' own prefs. Env overrides: `DIOGENES_SERVER_DIR
 - `morph_search` matches word forms, not parsed lemmata: forms shared between lemmata are all counted. Check `forms_found`.
 - `open_in_diogenes` searches can only be scoped to the whole TLG or a saved corpus.
 - Unscoped searches scan the whole TLG and can take a minute.
+
+## License
+
+GPL-2.0-or-later, the same terms as Diogenes. See `LICENSE`.
